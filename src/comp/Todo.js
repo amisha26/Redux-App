@@ -25,6 +25,7 @@ const Todo = () => {
             onClick={() => dispatch(addTodo(inputData), setInputData(""))}
           ></i>
         </div>
+        
         <div className="showItems">
           {list.map((elem) => {
             return (
