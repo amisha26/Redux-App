@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import { useDispatch } from "react-redux";
+import { addTodo, deleteTodo, removeTodo } from '../actions/index'
 
 const Todo = () => {
+  const [inputData, setInputData] = useState("");
+
   return (
     <div className="main-div">
       <div className="child-div">
@@ -8,8 +12,13 @@ const Todo = () => {
           <figcaption>Add Your List Here </figcaption>
         </figure>
         <div className="addItems">
-          <input type="text" placeholder="Add Items.." />
-          <i className="fa fa-plus add-btn"></i>
+          <input
+            type="text"
+            placeholder="Add Items.."
+            value={inputData}
+            onChange={(e) => setInputData(e.target.value)}
+          />
+          <i className="fa fa-plus add-btn" onClick={()=> dispatchEvent(addTodo(inputData))}></i>
         </div>
       </div>
     </div>
