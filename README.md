@@ -13,7 +13,7 @@ npm i redux react-redux
 ### To Run This App 
 
 ```
-git clone https://...
+git clone 
 cd repo_name
 npm install
 npm start 
