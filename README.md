@@ -10,6 +10,8 @@
 4. Flexible :-
    Redux works with any UI layer, and has a large ecosystem of addons to fit your needs.
 
+<hr>
+
 ### To Run This App
 
 ```
@@ -18,6 +20,7 @@ cd repo_name
 npm install
 npm start
 ```
+<hr>
 
 ### To instal redux in your react-app
 
