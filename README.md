@@ -24,7 +24,7 @@ npm start
 
 <hr>
 
-### To instal redux in your react-app
+### To install redux in your react-app
 
 ```
 npm i redux react-redux
