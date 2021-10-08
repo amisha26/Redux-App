@@ -1,7 +1,7 @@
 ### Live Demo! [Click-Here](https://at-todo-app.netlify.app/)
 
 ### Why Redux ??
-1. Predictable :-
+1. <b>Predictable</b> :-
    Redux helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test
 2. Centralized :-
    Centralizing your application's state and logic enables powerful capabilities like undo/redo, state persistence, and much more.
