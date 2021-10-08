@@ -48,7 +48,7 @@ const Todo = () => {
             data--sm-link-text="remove All"
             onClick={() => dispatch(removeTodo())}
           >
-            <span> 🗑 Clear Out</span>
+            <span> 🗑 Clear-Out</span>
           </button>
         </div>
       </div>
