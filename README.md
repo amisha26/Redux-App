@@ -1,5 +1,6 @@
 ### Live Demo! [Click-Here](https://at-todo-app.netlify.app/)
 
+Redux helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test
 
 ### To Run This App 
 
