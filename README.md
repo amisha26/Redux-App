@@ -32,4 +32,4 @@ npm i redux react-redux
 
 - [Tutorial](https://redux.js.org/)
 - [Mosh-YT](https://www.youtube.com/watch?v=poQXNp9ItL4)
-- [Redux](https://www.npmjs.com/package/redux)
+- [Redux-npmjs](https://www.npmjs.com/package/redux)
