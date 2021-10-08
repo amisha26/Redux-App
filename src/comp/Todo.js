@@ -11,12 +11,12 @@ const Todo = () => {
     <div className="main-div">
       <div className="child-div">
         <figure>
-          <figcaption>Add Your List Here </figcaption>
+          <figcaption>📒 Add Your List Here </figcaption>
         </figure>
         <div className="addItems">
           <input
             type="text"
-            placeholder="Add Items.."
+            placeholder="✍️ Add Items.."
             value={inputData}
             onChange={(e) => setInputData(e.target.value)}
           />
@@ -25,7 +25,7 @@ const Todo = () => {
             onClick={() => dispatch(addTodo(inputData), setInputData(""))}
           ></i>
         </div>
-        
+
         <div className="showItems">
           {list.map((elem) => {
             return (
@@ -41,6 +41,15 @@ const Todo = () => {
               </div>
             );
           })}
+        </div>
+        <div className="showItems">
+          <button
+            className="btn effet04"
+            data--sm-link-text="remove All"
+            onClick={() => dispatch(removeTodo())}
+          >
+            <span> 🗑 Check Out</span>
+          </button>
         </div>
       </div>
     </div>
